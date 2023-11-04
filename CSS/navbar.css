@@ -1,0 +1,71 @@
+nav{
+    background-color: #343a40;
+    color: lightgrey;
+    padding-left: 8vw !important;
+    padding-right: 8vw !important;
+   
+}
+
+nav a{
+   
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-brand{
+    
+    height: 4rem;
+    width:9rem;
+    font-size: 1rem;
+    
+}
+
+.navbar-brand img{
+   
+    width: 5.5rem;
+    height: 3.5rem;
+    color: lightgray;
+      
+}
+
+
+.link-comprar{
+    color:#2fa746;
+}
+
+.link-comprar:hover{
+    color:#2dff57;
+}
+
+nav,
+
+.offcanvas{
+
+    background-color: #343a40;
+    column-width: 10px;
+
+}
+
+#menuLateral{
+    width: 75vw;
+}
+
+.navbar-toggler{ 
+
+    border: none;
+
+}
+
+.navbar-toggler:focus{ 
+
+    outline: none;
+    box-shadow: none;
+}
+
+@media(max-width: 768px){
+    .navbar-nav > li:hover{
+        background-color: rgb(134, 150, 118);
+    }
+}
